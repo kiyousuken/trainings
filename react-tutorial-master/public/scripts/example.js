@@ -138,6 +138,13 @@ var CommentForm = React.createClass({
         <input type="submit" value="Post" />
       </form>
     );
+  },
+  render: function() {
+    return (
+      <div className="commentBox">
+        Hello,world! I am a commentBox.
+      </div>
+    );
   }
 });
 
